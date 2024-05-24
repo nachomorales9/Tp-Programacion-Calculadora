@@ -7,9 +7,7 @@ def limpiar_pantalla(a=None, b=None, operacion=None):
         2: "Resta",
         3: "Multiplicación",
         4: "División",
-        5: "Factorial"
-    }
-    system
+        5: "Factorial"}
     print(f"Primer número: {a if a else "No ingresado"}")
     print(f"Segundo número: {b if b else "No ingresado"}")
     operacion_nombre = operaciones.get(operacion, "No seleccionada")
