@@ -32,7 +32,7 @@ def ingresar_numero_a():
     a = None
     while a is None:
         try:
-            a = int(input("Ingrese el primer número: "))
+            a = int(input("Ingrese el primer número para la calculadora de Ignacio : "))
         except ValueError:
             print("Error, ingrese un número nuevamente")
     return a
@@ -42,7 +42,7 @@ def ingresar_numero_b():
     b = None
     while b is None:
         try:
-            b = int(input("Ingrese el segundo número: "))
+            b = int(input("Ingrese el segundo númer para la calculadora de Ignacio : "))
         except ValueError:
             print("Entrada inválida. Por favor, ingrese un número.")
     return b
